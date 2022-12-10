@@ -3,7 +3,8 @@ Java implementation of the [Settings](https://dominicentek.github.io/SettingsFil
 ## Usage
 ### Constructing a new Settings instance
 ```java
-import com.settingslib.Settings;
+import com.settingslib.*;
+import com.settingslib.elements.*;
 
 Settings newSettings = new Settings("Title");
 Settings loadedSettings = Settings.get(new FileInputStream("settings.stgs"));
